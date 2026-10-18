@@ -1,10 +1,20 @@
-# Birthday Paradox
+# Birthday Paradox Calculator
 
-This small project from the book ["The big Book of Small Python Projects"](https://inventwithpython.com/bigbookpython/), which I add my implementation of the project in Golang
+A Rust implementation of the Birthday Paradox. This project calculates the probability of at least two people in a group sharing a birthday and provides a simulation to find the first collision.
 
-### Example output
+## Usage
 
-All Code is under the Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) 
+To run the program:
+```bash
+cargo run
+```
 
-https://creativecommons.org/licenses/by-nc-sa/3.0/
-https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
+To run tests:
+```bash
+cargo test
+```
+
+## Features
+- Analytical calculation of probability.
+- Monte Carlo simulation of birthday collisions.
+- Unit tests.
