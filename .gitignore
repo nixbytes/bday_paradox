@@ -1,1 +1,6 @@
+# Rust standard
+/target/
+Cargo.lock
+
+# Local files
 tutorial.md
